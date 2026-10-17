@@ -1,0 +1,24 @@
+{
+  "class_counts": {
+    "train": {
+      "Bleeding": 765,
+      "Ischemia": 791,
+      "Normal": 3098
+    },
+    "val": {
+      "Bleeding": 164,
+      "Ischemia": 169,
+      "Normal": 664
+    },
+    "test": {
+      "Bleeding": 164,
+      "Ischemia": 170,
+      "Normal": 665
+    }
+  },
+  "class_weights": [
+    1.3549745082855225,
+    1.4414803981781006,
+    0.33458858728408813
+  ]
+}

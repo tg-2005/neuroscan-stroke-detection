@@ -1,0 +1,88 @@
+{
+  "accuracy": 0.6158475426278837,
+  "macro_precision": 0.6670208994210869,
+  "macro_recall": 0.7152115461412688,
+  "macro_f1": 0.6212651402791799,
+  "ischemia_recall": 0.9171597633136095,
+  "stroke_sensitivity": 0.960960960960961,
+  "stroke_specificity": 0.5150602409638554,
+  "classwise": {
+    "Bleeding": {
+      "precision": 0.7134146341463414,
+      "recall_sensitivity": 0.7134146341463414,
+      "specificity": 0.943577430972389,
+      "f1": 0.7134146341463414,
+      "support": 164
+    },
+    "Ischemia": {
+      "precision": 0.32426778242677823,
+      "recall_sensitivity": 0.9171597633136095,
+      "specificity": 0.6099033816425121,
+      "f1": 0.47913446676970634,
+      "support": 169
+    },
+    "Normal": {
+      "precision": 0.9633802816901409,
+      "recall_sensitivity": 0.5150602409638554,
+      "specificity": 0.960960960960961,
+      "f1": 0.6712463199214916,
+      "support": 664
+    }
+  },
+  "roc_auc": {
+    "macro_ovr": 0.9156430738958262,
+    "Bleeding": 0.9362427897988463,
+    "Ischemia": 0.8877740616871053,
+    "Normal": 0.9229123702015269
+  },
+  "confusion_matrix": [
+    [
+      117,
+      40,
+      7
+    ],
+    [
+      8,
+      155,
+      6
+    ],
+    [
+      39,
+      283,
+      342
+    ]
+  ],
+  "classification_report": {
+    "Bleeding": {
+      "precision": 0.7134146341463414,
+      "recall": 0.7134146341463414,
+      "f1-score": 0.7134146341463414,
+      "support": 164.0
+    },
+    "Ischemia": {
+      "precision": 0.32426778242677823,
+      "recall": 0.9171597633136095,
+      "f1-score": 0.47913446676970634,
+      "support": 169.0
+    },
+    "Normal": {
+      "precision": 0.9633802816901409,
+      "recall": 0.5150602409638554,
+      "f1-score": 0.6712463199214916,
+      "support": 664.0
+    },
+    "accuracy": 0.6158475426278837,
+    "macro avg": {
+      "precision": 0.6670208994210869,
+      "recall": 0.7152115461412688,
+      "f1-score": 0.6212651402791799,
+      "support": 997.0
+    },
+    "weighted avg": {
+      "precision": 0.8139275449071004,
+      "recall": 0.6158475426278837,
+      "f1-score": 0.6456181357191081,
+      "support": 997.0
+    }
+  }
+}

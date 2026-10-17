@@ -1,0 +1,101 @@
+{
+  "class_multipliers": [
+    0.85,
+    1.42,
+    1.0857142857142856
+  ],
+  "min_stroke_probability": null,
+  "validation_metrics_after_thresholding": {
+    "accuracy": 0.8555667001003009,
+    "macro_precision": 0.8315366561670063,
+    "macro_recall": 0.8553887943171153,
+    "macro_f1": 0.8303724746882359,
+    "ischemia_recall": 0.8875739644970414,
+    "stroke_sensitivity": 0.9039039039039038,
+    "stroke_specificity": 0.8554216867469879,
+    "classwise": {
+      "Bleeding": {
+        "precision": 0.9642857142857143,
+        "recall_sensitivity": 0.823170731707317,
+        "specificity": 0.9939975990396158,
+        "f1": 0.8881578947368421,
+        "support": 164
+      },
+      "Ischemia": {
+        "precision": 0.5836575875486382,
+        "recall_sensitivity": 0.8875739644970414,
+        "specificity": 0.8707729468599034,
+        "f1": 0.704225352112676,
+        "support": 169
+      },
+      "Normal": {
+        "precision": 0.9466666666666667,
+        "recall_sensitivity": 0.8554216867469879,
+        "specificity": 0.9039039039039038,
+        "f1": 0.8987341772151899,
+        "support": 664
+      }
+    },
+    "roc_auc": {
+      "macro_ovr": 0.9589140264444137,
+      "Bleeding": 0.9764588762334202,
+      "Ischemia": 0.9485392905125346,
+      "Normal": 0.9517439125872861
+    },
+    "confusion_matrix": [
+      [
+        135,
+        16,
+        13
+      ],
+      [
+        0,
+        150,
+        19
+      ],
+      [
+        5,
+        91,
+        568
+      ]
+    ],
+    "classification_report": {
+      "Bleeding": {
+        "precision": 0.9642857142857143,
+        "recall": 0.823170731707317,
+        "f1-score": 0.8881578947368421,
+        "support": 164.0
+      },
+      "Ischemia": {
+        "precision": 0.5836575875486382,
+        "recall": 0.8875739644970414,
+        "f1-score": 0.704225352112676,
+        "support": 169.0
+      },
+      "Normal": {
+        "precision": 0.9466666666666667,
+        "recall": 0.8554216867469879,
+        "f1-score": 0.8987341772151899,
+        "support": 664.0
+      },
+      "accuracy": 0.8555667001003009,
+      "macro avg": {
+        "precision": 0.8315366561670063,
+        "recall": 0.8553887943171153,
+        "f1-score": 0.8303724746882359,
+        "support": 997.0
+      },
+      "weighted avg": {
+        "precision": 0.8880317513593217,
+        "recall": 0.8555667001003009,
+        "f1-score": 0.8640235435454067,
+        "support": 997.0
+      }
+    }
+  },
+  "class_order": [
+    "Bleeding",
+    "Ischemia",
+    "Normal"
+  ]
+}

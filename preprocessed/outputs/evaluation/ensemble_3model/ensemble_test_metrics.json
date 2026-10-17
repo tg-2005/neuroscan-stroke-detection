@@ -1,0 +1,101 @@
+{
+  "weights": {
+    "googlenet": 0.30000000000000004,
+    "inception_v3": 0.35000000000000003,
+    "hybrid_cbam_swin": 0.35000000000000003
+  },
+  "checkpoints": {
+    "googlenet": "D:\\final\\preprocessed\\outputs\\googlenet\\best_model.pt",
+    "inception_v3": "D:\\final\\preprocessed\\outputs\\inception_v3\\best_model.pt",
+    "hybrid_cbam_swin": "D:\\final\\preprocessed\\outputs\\hybrid_cbam_swin\\best_model.pt"
+  },
+  "decision_config": null,
+  "metrics": {
+    "accuracy": 0.8458458458458459,
+    "macro_precision": 0.8110307389570041,
+    "macro_recall": 0.8643071092365059,
+    "macro_f1": 0.8234346045933888,
+    "ischemia_recall": 0.9,
+    "stroke_sensitivity": 0.9311377245508982,
+    "stroke_specificity": 0.8270676691729323,
+    "classwise": {
+      "Bleeding": {
+        "precision": 0.9044585987261147,
+        "recall_sensitivity": 0.8658536585365854,
+        "specificity": 0.9820359281437125,
+        "f1": 0.8847352024922118,
+        "support": 164
+      },
+      "Ischemia": {
+        "precision": 0.5687732342007435,
+        "recall_sensitivity": 0.9,
+        "specificity": 0.8600723763570567,
+        "f1": 0.6970387243735763,
+        "support": 170
+      },
+      "Normal": {
+        "precision": 0.9598603839441536,
+        "recall_sensitivity": 0.8270676691729323,
+        "specificity": 0.9311377245508982,
+        "f1": 0.8885298869143781,
+        "support": 665
+      }
+    },
+    "roc_auc": {
+      "macro_ovr": 0.9669560121360915,
+      "Bleeding": 0.9769826201256024,
+      "Ischemia": 0.9569005889448662,
+      "Normal": 0.9669848273378057
+    },
+    "confusion_matrix": [
+      [
+        142,
+        14,
+        8
+      ],
+      [
+        2,
+        153,
+        15
+      ],
+      [
+        13,
+        102,
+        550
+      ]
+    ],
+    "classification_report": {
+      "Bleeding": {
+        "precision": 0.9044585987261147,
+        "recall": 0.8658536585365854,
+        "f1-score": 0.8847352024922118,
+        "support": 164.0
+      },
+      "Ischemia": {
+        "precision": 0.5687732342007435,
+        "recall": 0.9,
+        "f1-score": 0.6970387243735763,
+        "support": 170.0
+      },
+      "Normal": {
+        "precision": 0.9598603839441536,
+        "recall": 0.8270676691729323,
+        "f1-score": 0.8885298869143781,
+        "support": 665.0
+      },
+      "accuracy": 0.8458458458458459,
+      "macro avg": {
+        "precision": 0.8110307389570041,
+        "recall": 0.8643071092365059,
+        "f1-score": 0.8234346045933888,
+        "support": 999.0
+      },
+      "weighted avg": {
+        "precision": 0.8842140293574288,
+        "recall": 0.8458458458458459,
+        "f1-score": 0.8553208520022945,
+        "support": 999.0
+      }
+    }
+  }
+}

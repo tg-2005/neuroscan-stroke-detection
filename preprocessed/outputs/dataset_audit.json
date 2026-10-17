@@ -1,0 +1,32 @@
+{
+  "splits": {
+    "train": {
+      "root": "D:\\preprocessed\\train-20260405T204846Z-1-001\\train",
+      "num_images": 4654,
+      "class_counts": {
+        "Bleeding": 765,
+        "Ischemia": 791,
+        "Normal": 3098
+      }
+    },
+    "val": {
+      "root": "D:\\preprocessed\\val-20260405T204844Z-1-001\\val",
+      "num_images": 997,
+      "class_counts": {
+        "Bleeding": 164,
+        "Ischemia": 169,
+        "Normal": 664
+      }
+    },
+    "test": {
+      "root": "D:\\preprocessed\\test-20260405T202619Z-1-001\\test",
+      "num_images": 999,
+      "class_counts": {
+        "Bleeding": 164,
+        "Ischemia": 170,
+        "Normal": 665
+      }
+    }
+  },
+  "patient_overlap": {}
+}

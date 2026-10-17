@@ -1,0 +1,99 @@
+{
+  "accuracy": 0.9724770642201835,
+  "precision": 0.9722386078306523,
+  "recall_sensitivity": 0.9722386078306523,
+  "f1": 0.9722386078306523,
+  "specificity_normal": 0.9714285714285714,
+  "classwise_sensitivity_specificity": {
+    "Ischemic": {
+      "sensitivity": 0.9782608695652174,
+      "specificity": 0.9941860465116279,
+      "false_negatives": 1,
+      "false_positives": 1
+    },
+    "Hemorrhagic": {
+      "sensitivity": 0.9574468085106383,
+      "specificity": 0.9883040935672515,
+      "false_negatives": 2,
+      "false_positives": 2
+    },
+    "Normal": {
+      "sensitivity": 0.9714285714285714,
+      "specificity": 0.9864864864864865,
+      "false_negatives": 2,
+      "false_positives": 2
+    },
+    "Stroke_Unknown": {
+      "sensitivity": 0.9818181818181818,
+      "specificity": 0.9938650306748467,
+      "false_negatives": 1,
+      "false_positives": 1
+    }
+  },
+  "confusion_matrix": [
+    [
+      45,
+      1,
+      0,
+      0
+    ],
+    [
+      1,
+      45,
+      1,
+      0
+    ],
+    [
+      0,
+      1,
+      68,
+      1
+    ],
+    [
+      0,
+      0,
+      1,
+      54
+    ]
+  ],
+  "classification_report": {
+    "Ischemic": {
+      "precision": 0.9782608695652174,
+      "recall": 0.9782608695652174,
+      "f1-score": 0.9782608695652174,
+      "support": 46.0
+    },
+    "Hemorrhagic": {
+      "precision": 0.9574468085106383,
+      "recall": 0.9574468085106383,
+      "f1-score": 0.9574468085106383,
+      "support": 47.0
+    },
+    "Normal": {
+      "precision": 0.9714285714285714,
+      "recall": 0.9714285714285714,
+      "f1-score": 0.9714285714285714,
+      "support": 70.0
+    },
+    "Stroke_Unknown": {
+      "precision": 0.9818181818181818,
+      "recall": 0.9818181818181818,
+      "f1-score": 0.9818181818181818,
+      "support": 55.0
+    },
+    "accuracy": 0.9724770642201835,
+    "macro avg": {
+      "precision": 0.9722386078306523,
+      "recall": 0.9722386078306523,
+      "f1-score": 0.9722386078306523,
+      "support": 218.0
+    },
+    "weighted avg": {
+      "precision": 0.9724770642201835,
+      "recall": 0.9724770642201835,
+      "f1-score": 0.9724770642201835,
+      "support": 218.0
+    }
+  },
+  "roc_auc_ovr_macro": 0.9994060480322645
+}

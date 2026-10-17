@@ -1,0 +1,98 @@
+{
+  "checkpoint": "D:\\preprocessed\\outputs\\googlenet\\last_model.pt",
+  "summary": {
+    "loss": 1.1806219399751008,
+    "accuracy": 0.3953953953953954,
+    "ischemia_recall": 0.9117647058823529,
+    "stroke_sensitivity": 0.9970059880239521,
+    "macro_f1": 0.4299971536629972
+  },
+  "metrics": {
+    "accuracy": 0.3953953953953954,
+    "macro_precision": 0.581810782254823,
+    "macro_recall": 0.6217557883230314,
+    "macro_f1": 0.4299971536629972,
+    "ischemia_recall": 0.9117647058823529,
+    "stroke_sensitivity": 0.9970059880239521,
+    "stroke_specificity": 0.16691729323308271,
+    "classwise": {
+      "Bleeding": {
+        "precision": 0.5098814229249012,
+        "recall_sensitivity": 0.7865853658536586,
+        "specificity": 0.8514970059880239,
+        "f1": 0.6187050359712231,
+        "support": 164
+      },
+      "Ischemia": {
+        "precision": 0.2444794952681388,
+        "recall_sensitivity": 0.9117647058823529,
+        "specificity": 0.4221954161640531,
+        "f1": 0.3855721393034826,
+        "support": 170
+      },
+      "Normal": {
+        "precision": 0.9910714285714286,
+        "recall_sensitivity": 0.16691729323308271,
+        "specificity": 0.9970059880239521,
+        "f1": 0.2857142857142857,
+        "support": 665
+      }
+    },
+    "roc_auc": {
+      "macro_ovr": 0.8700486912036026,
+      "Bleeding": 0.91853366437856,
+      "Ischemia": 0.8000496700489604,
+      "Normal": 0.8915627391832875
+    },
+    "confusion_matrix": [
+      [
+        129,
+        34,
+        1
+      ],
+      [
+        15,
+        155,
+        0
+      ],
+      [
+        109,
+        445,
+        111
+      ]
+    ],
+    "classification_report": {
+      "Bleeding": {
+        "precision": 0.5098814229249012,
+        "recall": 0.7865853658536586,
+        "f1-score": 0.6187050359712231,
+        "support": 164.0
+      },
+      "Ischemia": {
+        "precision": 0.2444794952681388,
+        "recall": 0.9117647058823529,
+        "f1-score": 0.3855721393034826,
+        "support": 170.0
+      },
+      "Normal": {
+        "precision": 0.9910714285714286,
+        "recall": 0.16691729323308271,
+        "f1-score": 0.2857142857142857,
+        "support": 665.0
+      },
+      "accuracy": 0.3953953953953954,
+      "macro avg": {
+        "precision": 0.581810782254823,
+        "recall": 0.6217557883230314,
+        "f1-score": 0.4299971536629972,
+        "support": 999.0
+      },
+      "weighted avg": {
+        "precision": 0.7850295971524198,
+        "recall": 0.3953953953953954,
+        "f1-score": 0.3573722618427153,
+        "support": 999.0
+      }
+    }
+  }
+}

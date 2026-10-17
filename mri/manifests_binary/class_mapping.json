@@ -1,0 +1,11 @@
+{
+  "class_names": [
+    "Normal",
+    "Stroke"
+  ],
+  "class_to_idx": {
+    "Normal": 0,
+    "Stroke": 1
+  },
+  "mode": "binary"
+}

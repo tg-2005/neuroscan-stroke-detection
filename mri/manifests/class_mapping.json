@@ -1,0 +1,15 @@
+{
+  "class_names": [
+    "Ischemic",
+    "Hemorrhagic",
+    "Normal",
+    "Stroke_Unknown"
+  ],
+  "class_to_idx": {
+    "Ischemic": 0,
+    "Hemorrhagic": 1,
+    "Normal": 2,
+    "Stroke_Unknown": 3
+  },
+  "mode": "multiclass"
+}

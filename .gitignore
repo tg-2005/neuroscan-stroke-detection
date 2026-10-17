@@ -1,0 +1,71 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyd
+
+# C extensions
+*.so
+*.dll
+
+# Virtual Environments
+.venv/
+*/.venv/
+venv/
+*/venv/
+env/
+*/env/
+ENV/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Model weights & large binary checkpoints (>100MB rejected by GitHub)
+*.pt
+*.pth
+*.h5
+*.hdf5
+*.ckpt
+*.onnx
+*.bin
+*.pkl
+
+# Massive Raw Datasets (17,000+ medical images)
+mri/Hemorrhagic/
+mri/Ischemic/
+mri/Normal/
+mri/Stroke_Unknown/
+preprocessed/test-*/
+preprocessed/train-*/
+preprocessed/val-*/
+
+# NeuroScan web application uploads & generated cached outputs
+sproject/neuroscan/uploads/*
+!sproject/neuroscan/uploads/.gitkeep
+sproject/neuroscan/static/gradcam/*
+!sproject/neuroscan/static/gradcam/.gitkeep
+sproject/neuroscan/static/originals/*
+!sproject/neuroscan/static/originals/.gitkeep
+
+# IDEs, OS, Logs & Temporary files
+*.log
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+desktop.ini

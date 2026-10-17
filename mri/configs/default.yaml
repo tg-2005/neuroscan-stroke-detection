@@ -1,0 +1,28 @@
+seed: 42
+class_mode: auto
+image_size: 224
+batch_size: 16
+epochs: 40
+learning_rate: 0.0001
+weight_decay: 0.0001
+num_workers: 0
+patience: 8
+freeze_backbone_epochs: 3
+dropout: 0.4
+use_weighted_sampler: true
+stroke_sensitivity_weight: 1.5
+decision_threshold: 0.35
+allow_generated_augmented_files: false
+model_arch: hybrid_cbam_swin
+loss_type: focal
+focal_gamma: 2.0
+label_smoothing: 0.05
+embed_dim: 256
+preprocessing:
+  apply_clahe: true
+  skull_strip: true
+  denoise: false
+  preserve_aspect_ratio: true
+  enhance_bilateral_asymmetry: true
+outputs:
+  run_dir: outputs/run_hybrid_cbam_swin
